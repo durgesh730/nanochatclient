@@ -1,0 +1,23 @@
+.colleges {
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 15px -7px black;
+    padding: 5rem 6rem;
+    font-family: "Poppins";
+}
+
+.colleges table {
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .colleges {
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .colleges {
+        padding: 3rem 1.5rem;
+    }
+}
