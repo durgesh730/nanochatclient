@@ -8,6 +8,7 @@
 
 .colleges table {
     width: 100%;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width:800px) {
@@ -18,6 +19,10 @@
 
 @media screen and (max-width:500px) {
     .colleges {
-        padding: 3rem 1.5rem;
+        padding: 3rem 1rem;
+    }
+    .colleges table {
+        width: 100%;
+        font-size: .8rem;
     }
 }

@@ -42,37 +42,37 @@ const Download = () => {
                               <tr>
                                    <td>MOTI LAL NEHRU MEDICAL COLLEGE, PRAGYRAJ</td>
                                    <td>2022</td>
-                                   <td><Link to="/Login" >Download</Link></td>
+                                   <td><span >Download</span></td>
                               </tr>
                               {/* BABA RAGHAVDAS MEDIAL COLLEGE, GORAKHPUR */}
                               <tr>
                                    <td>BABA RAGHAVDAS MEDIAL COLLEGE, GORAKHPUR</td>
                                    <td>2022</td>
-                                   <td><Link to="/Login" >Download</Link></td>
+                                   <td><span >Download</span></td>
                               </tr>
 
                               <tr>
                                    <td>MAHARANI LAXMIBAI MEDICAL COLLEGE, JHANSI</td>
                                    <td>2022</td>
-                                   <td><Link to="/Login" >Download</Link></td>
+                                   <td><span >Download</span></td>
                               </tr>
 
                               <tr>
                                    <td>MEDICAL COLLEGE, AZAMGARH</td>
                                    <td>2022</td>
-                                   <td><Link to="/Login" >Download</Link></td>
+                                   <td><span >Download</span></td>
                               </tr>
 
                               <tr>
                                    <td>GANESH SHANKER VIDHARTHI MEMORIAL MEDICAL COLLEGE, KANPUR</td>
                                    <td>2022</td>
-                                   <td><Link to="/Login" >Download</Link></td>
+                                   <td><span>Download</span></td>
                               </tr>
 
                               <tr>
                                    <td>SAROJINI NAIDU MEDICAL COLLEGE, AGRA</td>
                                    <td>2022</td>
-                                   <td><Link to="/Login" >Download</Link></td>
+                                   <td><span>Download</span></td>
                               </tr>
                          </table>
                     </div>
