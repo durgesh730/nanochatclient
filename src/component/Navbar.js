@@ -83,18 +83,10 @@ const Navbar = () => {
         <div className="profile-options" id="profileOption">
           <ul>
             <li>
-              <a style={{ cursor: "pointer" }} to="/profiledetails"  >My Profile</a>
-            </li>
-
-            <li >
-              <Link to="/book">Booked Vehicles</Link>
-            </li>
-
-            <li>
-              <Link to="/help">FAQ's & Help</Link>
+              <Link style={{ cursor: "pointer" }} to="/profiledetails"  >My Profile</Link>
             </li>
             <li >
-              {token === null ? " " : <Link onClick={handleLogout} id='logout' >Logout</Link>}
+              <Link onClick={handleLogout} id='logout' >Logout</Link>
             </li>
           </ul>
         </div>
