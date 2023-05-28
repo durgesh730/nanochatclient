@@ -140,3 +140,54 @@
       width:83%;
    }
 }
+
+@media screen and (max-width:450px) {
+   .bothtable .Firsttable{
+     width:95%;
+   }
+   
+   .bothtable .secondtable{
+      margin: auto;
+      width:95%;
+   }
+   .bothtable .Firsttable {
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .Firsttable tr{
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .Firsttable  tr td {
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .Firsttable  tr td a{
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .Firsttable  tr td a thead{
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .secondtable{
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .secondtable tr{
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .secondtable  tr td {
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .secondtable tr td a{
+      font-size: 1.3rem;
+   }
+   
+   .bothtable .secondtable  tr td a thead{
+      font-size: 1.3rem;
+   }
+   
+}
