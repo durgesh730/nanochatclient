@@ -51,17 +51,28 @@ body {
 
 .imgpara .img img {
   width: 33rem;
-  -webkit-animation: mover 2s infinite  alternate;
-  animation: mover 2s infinite  alternate;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
 }
 
 @-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-30px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
 }
+
 @keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-30px); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-30px);
+  }
 }
 
 .textButton {
@@ -325,11 +336,37 @@ body {
   font-size: 1.2rem;
 }
 
-.chennels .container h1{
+.chennels .container h1 {
   font-weight: 600;
 }
 
 .vl {
   border-left: 1px solid white;
   height: 100px;
+}
+
+@media screen and (max-width:1024px) {
+  .chennels .container {
+    padding: 0rem 5rem;
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .chennels .container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .chennels .container {
+    padding: 0rem 0rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .vl {
+    display: none;
+  }
 }
